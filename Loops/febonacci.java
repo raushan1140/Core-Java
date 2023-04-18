@@ -4,8 +4,8 @@ public class tut2 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int n=input.nextInt();
-        int p=0;
-        int i=1;
+        int p=0;         //previous number 
+        int i=1;        //Current index
         int count=2;
         
         while(count<=n){
@@ -18,3 +18,7 @@ public class tut2 {
         
     }
 }
+
+
+
+
