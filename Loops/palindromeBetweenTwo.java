@@ -9,7 +9,7 @@ public class palindromeBetweenTwo{
         {
             System.out.print("Start should must be greater than or equal to end");
         }
-        for(int i=start;i<end;i++)
+        for(int i=start;i<=end;i++)
         {
             int original=i;
             int rev=0;
